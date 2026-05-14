@@ -2,33 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
+subtitle: Post-doctoral Scholar, <a href='https://aimi.stanford.edu/'>Center for AI in Medicine & Imaging</a>, <a href='https://pathology.stanford.edu/'>Department of Pathology</a>, Stanford University.
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
+align: right
+image: prof_pic.jpg
+image_circular: false
+more_info: >
+<p>Department of Pathology</p>
+<p>Stanford University</p>
+<p>California, USA</p>
+selected_papers: true
+social: true
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
+enabled: true
+scrollable: true
+limit: 5
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
----
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+enabled: false
+scrollable: true
+limit: 3
+I am a Post-doctoral Scholar at the Center for AI in Medicine & Imaging (CAIMI) in the Department of Pathology at Stanford University, working with Dr. Jeanne Shen on computational pathology and multimodal AI for clinical decision support.
+My research focuses on deep learning for whole-slide image (WSI) analysis — including survival prediction, tissue segmentation and classification, and the development of vision–language foundation models for digital pathology. I am particularly interested in building reliable, scalable pipelines that bridge raw histopathology data and clinically meaningful predictions.
+I received my Ph.D. in Computer Vision from Kyungpook National University, South Korea, in 2024, where I was awarded the Best Thesis Award for my work on gesture recognition, anomaly detection, and small-object detection. Earlier, I completed an M.Sc. in Applied Mathematics with Computer Applications at Bharathiar University, India.
+Beyond core research, I serve as a reviewer for CVPR, NeurIPS, MICCAI, ACM-MM, and several IEEE journals, and as a track chair for RECCAP 2026 and the North American Young Investigators Symposium on Mathematical Oncology 2026. I am a member of IEEE and ACM.
+Feel free to reach out at barathi1@stanford.edu or barathi.sn93@gmail.com.
