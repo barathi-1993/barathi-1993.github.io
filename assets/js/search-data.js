@@ -453,11 +453,11 @@ ninja.data = [{
           description: "Multi-axis instance selection and semantic hypergraph modeling for WSI survival prediction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_triage_mil/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-gesture2music",
+          title: 'Gesture2Music',
+          description: "Low-latency real-time framework for continuous gesture-driven music generation",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
+              window.location.href = "/projects/5_gesture2music/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
