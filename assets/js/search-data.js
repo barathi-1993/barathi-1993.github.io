@@ -438,16 +438,16 @@ ninja.data = [{
           description: "Large-scale multi-class tissue classification dataset for colorectal cancer histopathology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_starc9/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-digital-pathology-ai-pipeline",
+          title: 'Digital Pathology AI Pipeline',
+          description: "End-to-end WSI and multimodal analysis workflows for histopathology",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/2_digital_pathology_pipeline/";
+            },},{id: "projects-mufasa",
+          title: 'MUFASA',
+          description: "Information utility-aware preprocessing for reliable computational pathology model reasoning",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
+              window.location.href = "/projects/3_mufasa/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
