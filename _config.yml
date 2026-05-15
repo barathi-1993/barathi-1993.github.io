@@ -8,15 +8,15 @@ middle_name:
 last_name: Subramanian
 email: barathi1@stanford.edu
 contact_note: >
-  The best way to reach me is via my Stanford email. For non-academic correspondence,
-  feel free to use my personal email — both are listed on the about page.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of Barathi Subramanian — Post-doctoral Scholar at the
-  Center for AI in Medicine & Imaging, Department of Pathology, Stanford University.
+  The best way to reach me is via my Stanford email. Additional contact information
+  is available on the about page.
+description: >
+  Personal website of Barathi Subramanian — Postdoctoral Scholar in the
+  Department of Pathology and Center for AI in Medicine & Imaging at Stanford University.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
   <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a>.
-keywords: computational pathology, whole slide images, deep learning, computer vision, medical imaging, stanford # add your own keywords or leave empty
+keywords: computational pathology, digital pathology, whole slide images, medical AI, computer vision, deep learning, image classification, object detection, segmentation, anomaly detection, vision-language models, Stanford
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔬 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -93,8 +93,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: notes # blog_name will be displayed in your blog page
-blog_description: occasional notes on computational pathology, deep learning, and research life
+blog_name: research notes
+blog_description: Notes on computational pathology, medical AI, computer vision, and deep learning.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
