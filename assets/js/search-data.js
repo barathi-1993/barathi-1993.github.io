@@ -433,11 +433,11 @@ ninja.data = [{
           section: "News",},{id: "news-two-papers-accepted-at-cvpr-2026-gesture2music-ipa-workshop-and-contrast-enhanced-gating-in-grus-women-in-computer-vision-track",
           title: 'Two papers accepted at CVPR 2026 — Gesture2Music (IPA Workshop) and Contrast-Enhanced Gating...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-starc-9",
+          title: 'STARC-9',
+          description: "Large-scale multi-class tissue classification dataset for colorectal cancer histopathology",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/1_starc9/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
