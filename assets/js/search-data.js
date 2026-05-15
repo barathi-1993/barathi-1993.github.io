@@ -440,10 +440,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/al-folio/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-received-the-best-thesis-award-2024-from-kyungpook-national-university-for-my-ph-d-work-in-computer-vision",
+            },},{id: "news-received-the-best-thesis-award-2024-from-kyungpook-national-university-for-my-ph-d-work-in-computer-vision",
           title: 'Received the Best Thesis Award (2024) from Kyungpook National University for my Ph.D....',
           description: "",
           section: "News",},{id: "news-joined-stanford-university-as-a-post-doctoral-scholar-at-the-center-for-ai-in-medicine-amp-amp-imaging",
