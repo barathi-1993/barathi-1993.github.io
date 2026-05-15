@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://barathi-1993.github.io/al-folio/sitemap.xml
+Sitemap: https://barathi-1993.github.io/sitemap.xml
