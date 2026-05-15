@@ -443,11 +443,11 @@ ninja.data = [{
           description: "End-to-end WSI and multimodal analysis workflows for histopathology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_digital_pathology_pipeline/";
-            },},{id: "projects-mufasa",
-          title: 'MUFASA',
-          description: "Information utility-aware preprocessing for reliable computational pathology model reasoning",
+            },},{id: "projects-project-3-with-very-long-name",
+          title: 'project 3 with very long name',
+          description: "a project that redirects to another website",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_mufasa/";
+              window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
