@@ -2,27 +2,35 @@
 layout: about
 title: about
 permalink: /
-subtitle: Post-doctoral Scholar, <a href='https://aimi.stanford.edu/'>Center for AI in Medicine & Imaging</a>, <a href='https://pathology.stanford.edu/'>Department of Pathology</a>, Stanford University.
+subtitle: Postdoctoral Scholar, Department of Pathology, Stanford University
+
 profile:
-align: right
-image: prof_pic.jpg
-image_circular: false
-more_info: >
-<p>Department of Pathology</p>
-<p>Stanford University</p>
-<p>California, USA</p>
+  align: right
+  image: prof_pic.jpg
+  image_circular: false
+  more_info: >
+    <p>Department of Pathology</p>
+    <p>Center for AI in Medicine & Imaging</p>
+    <p>Stanford University</p>
+
 selected_papers: true
 social: true
+
 announcements:
-enabled: true
-scrollable: true
-limit: 5
+  enabled: true
+  scrollable: true
+  limit: 5
+
 latest_posts:
-enabled: false
-scrollable: true
-limit: 3
-I am a Post-doctoral Scholar at the Center for AI in Medicine & Imaging (CAIMI) in the Department of Pathology at Stanford University, working with Dr. Jeanne Shen on computational pathology and multimodal AI for clinical decision support.
-My research focuses on deep learning for whole-slide image (WSI) analysis — including survival prediction, tissue segmentation and classification, and the development of vision–language foundation models for digital pathology. I am particularly interested in building reliable, scalable pipelines that bridge raw histopathology data and clinically meaningful predictions.
-I received my Ph.D. in Computer Vision from Kyungpook National University, South Korea, in 2024, where I was awarded the Best Thesis Award for my work on gesture recognition, anomaly detection, and small-object detection. Earlier, I completed an M.Sc. in Applied Mathematics with Computer Applications at Bharathiar University, India.
-Beyond core research, I serve as a reviewer for CVPR, NeurIPS, MICCAI, ACM-MM, and several IEEE journals, and as a track chair for RECCAP 2026 and the North American Young Investigators Symposium on Mathematical Oncology 2026. I am a member of IEEE and ACM.
-Feel free to reach out at barathi1@stanford.edu or barathi.sn93@gmail.com.
+  enabled: false
+---
+
+I am a Postdoctoral Scholar in the Department of Pathology and the Center for AI in Medicine & Imaging at Stanford University.
+
+My research focuses on computational pathology, medical AI, and computer vision, with emphasis on whole-slide image analysis, artifact-aware preprocessing, tissue classification, segmentation, survival prediction, and multimodal pathology foundation models.
+
+I develop end-to-end AI pipelines for digital pathology, including whole-slide image preprocessing, tile extraction, quality control, annotation workflows, foundation-model-based feature extraction, and clinically relevant downstream prediction tasks.
+
+Before joining Stanford, I completed my Ph.D. in Computer Vision at Kyungpook National University, South Korea, where I worked on anomaly detection, object detection, gesture recognition, and real-time computer vision systems.
+
+My broader goal is to build reliable, interpretable, and clinically useful AI systems for pathology and healthcare.
