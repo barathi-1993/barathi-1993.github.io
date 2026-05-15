@@ -443,16 +443,16 @@ ninja.data = [{
           description: "End-to-end WSI and multimodal analysis workflows for histopathology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_digital_pathology_pipeline/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-mufasa",
+          title: 'MUFASA',
+          description: "Information utility-aware preprocessing for reliable computational pathology model reasoning",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/3_mufasa/";
+            },},{id: "projects-triage-mil",
+          title: 'TRIAGE-MIL',
+          description: "Multi-axis instance selection and semantic hypergraph modeling for WSI survival prediction",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
+              window.location.href = "/projects/4_triage_mil/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
