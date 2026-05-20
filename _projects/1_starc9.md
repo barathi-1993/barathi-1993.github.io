@@ -13,7 +13,7 @@ The dataset was developed to support foundation-model-based histopathology analy
 
 <div class="row mt-4">
   <div class="col-sm-12">
-    <img src="/assets/img/projects/STARC9_1.png" alt="STARC-9 whole-slide image to multi-class tissue tile dataset workflow" class="img-fluid rounded z-depth-1">
+    <img src="/assets/img/projects/STARC9_1.jpg" alt="STARC-9 whole-slide image to multi-class tissue tile dataset workflow" class="img-fluid rounded z-depth-1">
   </div>
 </div>
 <div class="caption">
@@ -22,7 +22,7 @@ The dataset was developed to support foundation-model-based histopathology analy
 
 <div class="row mt-4">
   <div class="col-sm-6 mt-3 mt-md-0">
-    <img src="/assets/img/projects/STARC9_2.png" alt="STARC-9 morphologically diverse tissue classes" class="img-fluid rounded z-depth-1">
+    <img src="/assets/img/projects/STARC9_2.jpg" alt="STARC-9 morphologically diverse tissue classes" class="img-fluid rounded z-depth-1">
   </div>
   <div class="col-sm-6 mt-3 mt-md-0">
     <img src="/assets/img/projects/STARC9_3.png" alt="STARC-9 class-balanced curation and foundation-model-ready dataset design" class="img-fluid rounded z-depth-1">
