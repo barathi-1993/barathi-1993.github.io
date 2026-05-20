@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Selected research projects in computational pathology, medical AI, and computer vision.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
