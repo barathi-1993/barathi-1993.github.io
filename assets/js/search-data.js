@@ -416,11 +416,6 @@ ninja.data = [{
           description: "Low-latency real-time framework for continuous gesture-driven music generation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_gesture2music/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
             },},{id: "projects-industrial-anomaly-detection",
           title: 'Industrial Anomaly Detection',
           description: "Deep learning and spectral clustering for fabric defect detection and localization",
