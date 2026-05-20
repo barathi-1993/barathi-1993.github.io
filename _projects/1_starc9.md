@@ -2,7 +2,7 @@
 layout: page
 title: STARC-9
 description: Large-scale multi-class tissue classification dataset for colorectal cancer histopathology
-img: assets/img/projects/STARC9_teaser.png
+img: assets/img/projects/STARC9_1.jpg
 importance: 1
 category: medical-ai
 ---
@@ -13,7 +13,7 @@ The dataset was developed to support foundation-model-based histopathology analy
 
 <div class="row mt-4">
   <div class="col-sm-12">
-    <img src="/assets/img/projects/STARC9_1.jpg" alt="STARC-9 overview figure" class="img-fluid rounded z-depth-1">
+    <img src="/assets/img/projects/STARC9_2.jpg" alt="STARC-9 overview figure" class="img-fluid rounded z-depth-1">
   </div>
 </div>
 <div class="caption">
