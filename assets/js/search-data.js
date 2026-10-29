@@ -3,13 +3,20 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "About",
+    id: "nav-home",
+    title: "Home",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-research-amp-projects",
+  },{id: "nav-about-me",
+          title: "About Me",
+          description: "Research background, academic journey, and technical interests of Barathi Subramanian.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/about-me/";
+          },
+        },{id: "nav-research-amp-projects",
           title: "Research &amp; Projects",
           description: "Selected research and engineering work in medical AI, computer vision, and applied machine learning.",
           section: "Navigation",
