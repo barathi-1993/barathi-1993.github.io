@@ -3,6 +3,7 @@ layout: about
 title: Home
 permalink: /
 subtitle: Computer Vision · Medical AI · Applied Machine Learning
+hide_title_block: true
 profile: false
 selected_papers: false
 social: false
@@ -38,7 +39,6 @@ latest_posts:
 
 <section class="greeting-hero" aria-label="Introduction">
   <div>
-    <div class="greeting-eyebrow">Research · Engineering · Translation</div>
     <h2 class="greeting-title">Hi There,<br>I'm <span class="name">Barathi Subramanian</span></h2>
     <p class="greeting-role">I work in <span id="rotating-research-role">Computer Vision</span><span aria-hidden="true"> |</span></p>
     <p class="greeting-description">Developing research-driven, practical AI systems across computational pathology, multimodal medical imaging, and applied machine learning.</p>
@@ -47,7 +47,8 @@ latest_posts:
       <a href="mailto:barathi1@stanford.edu" aria-label="Email Barathi"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
       <a href="https://github.com/barathi-1993" aria-label="GitHub profile" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
       <a href="https://www.linkedin.com/in/barithi-subramanian/" aria-label="LinkedIn profile" rel="noopener noreferrer"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
-      <a href="https://scholar.google.com/citations?user=kJnV_74AAAAJ" aria-label="Google Scholar profile" rel="noopener noreferrer"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></a>
+      <a href="https://scholar.google.com/citations?user=kJnV_74AAAAJ" aria-label="Google Scholar profile" rel="noopener noreferrer"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+      <a href="https://profiles.stanford.edu/barathi-subramanian" aria-label="Stanford work profile" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="21" height="21" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20 6h-4V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2H4a2 2 0 0 0-2 2v4.5l9 2.25v-1.5h2v1.5l9-2.25V8a2 2 0 0 0-2-2ZM10 4h4v2h-4V4Zm11 10.55-8 2v1.2h-2v-1.2l-8-2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5.45Z"/></svg></a>
     </div>
   </div>
   <img class="greeting-portrait" src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" width="285" height="357" alt="Portrait of Barathi Subramanian" loading="eager">
@@ -71,6 +72,6 @@ document.addEventListener("DOMContentLoaded",function(){
   if(!el||window.matchMedia("(prefers-reduced-motion: reduce)").matches)return;
   const roles=["Computer Vision","Medical AI","Multimodal Learning","Applied Machine Learning"];
   let i=0;
-  window.setInterval(function(){i=(i+1)%roles.length;el.textContent=roles[i]},2600);
+  window.setInterval(function(){i=(i+1)%roles.length;el.textContent=roles[i]},1700);
 });
 </script>

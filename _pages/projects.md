@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research & Projects
+title: Research
 permalink: /projects/
 description: Selected research and engineering work in medical AI, computer vision, and applied machine learning.
 nav: true
