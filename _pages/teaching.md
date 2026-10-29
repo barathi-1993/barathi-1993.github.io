@@ -1,15 +1,11 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Course materials, schedules, and resources for classes taught.
+title: Teaching & Mentoring
+description: Teaching, research mentoring, and student project supervision.
 nav: false
-nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+My experience includes mentoring undergraduate students in deep learning and supporting student-led software development, including an Android-based optical character recognition application.
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
-
-{% include courses.liquid %}
+For research expertise and technical projects, please see [Experience]({{ '/experience/' | relative_url }}) and [Research & Projects]({{ '/projects/' | relative_url }}).

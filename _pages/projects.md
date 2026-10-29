@@ -1,61 +1,33 @@
 ---
 layout: page
-title: projects
+title: Research & Projects
 permalink: /projects/
-description: Selected research projects in computational pathology, medical AI, and computer vision.
+description: Selected research and engineering work in medical AI, computer vision, and applied machine learning.
 nav: true
-nav_order: 3
-display_categories: [medical-ai, computer-vision]
-horizontal: true
+nav_order: 2
 ---
+<style>
+.portfolio-project-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;margin:1.5rem 0}
+.portfolio-project{border:1px solid var(--global-divider-color);border-radius:12px;padding:1.3rem;display:flex;flex-direction:column}
+.portfolio-project h3{font-size:1.17rem;margin:0 0 .5rem}
+.portfolio-project p{flex-grow:1;font-size:.95rem}
+.portfolio-project .project-tag{font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--global-theme-color);font-weight:700;margin-bottom:.7rem}
+</style>
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category | replace: "-", " " | capitalize }}</h2>
-  </a>
+My work ranges from research prototypes and datasets to systems-oriented computer vision. Each project page describes the problem, approaches, and my role; publication status is tracked separately under [Publications]({{ '/publications/' | relative_url }}).
 
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-1">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-  {% assign sorted_projects = site.projects | sort: "importance" %}
-
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-1">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-
-{% endif %}
+<div class="portfolio-project-grid">
+{% assign sorted_projects = site.projects | sort: 'importance' %}
+{% for project in sorted_projects %}
+  <article class="portfolio-project">
+    <div class="project-tag">{{ project.category | replace: '-', ' ' }}</div>
+    <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+    <p>{{ project.description }}</p>
+    <a href="{{ project.url | relative_url }}" aria-label="Read project details for {{ project.title }}">Project details →</a>
+  </article>
+{% endfor %}
 </div>
+
+## Engineering focus
+
+Across projects I work with model training, experiment tracking, image annotation, reproducible evaluation, and the integration of research methods into usable workflows. See [Experience]({{ '/experience/' | relative_url }}) for technical competencies and roles.
