@@ -30,7 +30,7 @@ linkedin_username: barithi-subramanian # your LinkedIn user name
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-rss_icon: true # comment this line to hide the RSS icon
+# rss_icon: disabled to keep the website header and social links uncluttered
 scholar_userid: kJnV_74AAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID

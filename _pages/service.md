@@ -3,7 +3,7 @@ layout: page
 title: Service & Awards
 permalink: /service/
 description: Academic service, conference contributions, awards and professional memberships.
-nav: true
+nav: false
 nav_order: 5
 ---
 
