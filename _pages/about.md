@@ -47,7 +47,8 @@ latest_posts:
       <a href="mailto:barathi1@stanford.edu" aria-label="Email Barathi"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
       <a href="https://github.com/barathi-1993" aria-label="GitHub profile" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
       <a href="https://www.linkedin.com/in/barithi-subramanian/" aria-label="LinkedIn profile" rel="noopener noreferrer"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
-      <a href="https://scholar.google.com/citations?user=kJnV_74AAAAJ" aria-label="Google Scholar profile" rel="noopener noreferrer"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></a>
+      <a href="https://scholar.google.com/citations?user=kJnV_74AAAAJ" aria-label="Google Scholar profile" rel="noopener noreferrer"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+      <a href="https://profiles.stanford.edu/barathi-subramanian" aria-label="Stanford work profile" rel="noopener noreferrer"><i class="fa-solid fa-briefcase" aria-hidden="true"></i></a>
     </div>
   </div>
   <img class="greeting-portrait" src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" width="285" height="357" alt="Portrait of Barathi Subramanian" loading="eager">
