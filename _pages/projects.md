@@ -6,18 +6,7 @@ description: Selected research and engineering projects.
 nav: true
 nav_order: 2
 ---
-<style>
-.pj-intro{max-width:42rem;line-height:1.7;color:var(--global-text-color-light);margin-bottom:2.1rem}
-.pj-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.7rem}
-.pj-card{border:1px solid var(--global-divider-color);border-radius:14px;overflow:hidden}
-.pj-card a{display:block;text-decoration:none;color:inherit}
-.pj-card img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:#eaf0f6}
-.pj-card .pj-content{padding:1.15rem 1.2rem 1.4rem}
-.pj-card .pj-tag{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--global-theme-color);margin-bottom:.55rem}
-.pj-card h2{font-size:1.18rem;margin:0 0 .5rem}
-.pj-card p{font-size:.92rem;line-height:1.65;color:var(--global-text-color-light);margin:0}
-@media(max-width:640px){.pj-grid{grid-template-columns:1fr;gap:1.2rem}}
-</style>
+
 
 <p class="pj-intro">A selection of my research and engineering work. Explore a project for its goals and contributions, or visit <a href="{{ '/publications/' | relative_url }}">Publications</a> for publication records.</p>
 
