@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research-amp-projects",
           title: "Research &amp; Projects",
-          description: "Selected research and engineering work in medical AI, computer vision, and applied machine learning.",
+          description: "Selected research and engineering projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
