@@ -10,7 +10,6 @@ profile:
   image_circular: false
   more_info: >
     <p>Department of Pathology</p>
-    <p>Center for AI in Medicine & Imaging</p>
     <p>Stanford University</p>
 
 selected_papers: true
@@ -25,7 +24,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a Postdoctoral Scholar in the Department of Pathology and the Center for AI in Medicine & Imaging at Stanford University.
+I am a Postdoctoral Scholar in the Department of Pathology at Stanford University.
 
 My research focuses on computational pathology, medical AI, and computer vision, with emphasis on whole-slide image analysis, artifact-aware preprocessing, tissue classification, segmentation, survival prediction, and multimodal pathology foundation models.
 
