@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/about-me/";
           },
-        },{id: "nav-research-amp-projects",
-          title: "Research &amp; Projects",
+        },{id: "nav-research",
+          title: "Research",
           description: "Selected research and engineering work in medical AI, computer vision, and applied machine learning.",
           section: "Navigation",
           handler: () => {
@@ -36,13 +36,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/experience/";
-          },
-        },{id: "nav-service-amp-awards",
-          title: "Service &amp; Awards",
-          description: "Academic service, conference contributions, awards and professional memberships.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/service/";
           },
         },{id: "nav-cv",
           title: "CV",
@@ -126,13 +119,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/barithi-subramanian", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
