@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-about-me",
           title: "About Me",
-          description: "Research background, academic journey, and technical interests of Barathi Subramanian.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/about-me/";
