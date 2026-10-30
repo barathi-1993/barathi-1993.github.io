@@ -9,6 +9,7 @@ nav_order: 2
 <style>
 .portfolio-project-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;margin:1.5rem 0}
 .portfolio-project{border:1px solid var(--global-divider-color);border-radius:12px;padding:1.3rem;display:flex;flex-direction:column}
+.portfolio-project .research-figure{width:100%;aspect-ratio:16/9;object-fit:contain;display:block;margin:0 0 1rem;background:var(--global-bg-color);border-radius:8px}
 .portfolio-project h3{font-size:1.17rem;margin:0 0 .5rem}
 .portfolio-project p{flex-grow:1;font-size:.95rem}
 .portfolio-project .project-tag{font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--global-theme-color);font-weight:700;margin-bottom:.7rem}
@@ -20,6 +21,7 @@ My work ranges from research prototypes and datasets to systems-oriented compute
 {% assign sorted_projects = site.projects | sort: 'importance' %}
 {% for project in sorted_projects %}
   <article class="portfolio-project">
+    {% if project.img %}<a href="{{ project.url | relative_url }}"><img class="research-figure" src="{{ project.img | relative_url }}" alt="Research figure for {{ project.title }}" loading="lazy"></a>{% endif %}
     <div class="project-tag">{{ project.category | replace: '-', ' ' }}</div>
     <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
     <p>{{ project.description }}</p>
