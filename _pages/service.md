@@ -22,6 +22,7 @@ html[data-theme="dark"] .post article h2 { color: #e58bdf; }
 
 ## Selected honors
 
+- **2026** — Best Oral Presentation Runner-Up, WiM 2026.
 - **2026** — Charles B. Carrington Memorial Award for Outstanding Poster Presentation, Stanford University.
 - **2024** — Best Thesis Award, Kyungpook National University.
 - **2021–2022** — Best Paper Awards at multiple conferences, as listed in the CV.
