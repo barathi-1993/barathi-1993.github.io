@@ -2,10 +2,14 @@
 layout: page
 title: About Me
 permalink: /about-me/
-description: Research background, academic journey, and technical interests of Barathi Subramanian.
 nav: true
 nav_order: 1
 ---
+
+<style>
+.post article h2 { color: #8e168e; border-bottom: 1px solid var(--global-divider-color); padding-bottom: .35rem; }
+html[data-theme="dark"] .post article h2 { color: #e58bdf; }
+</style>
 
 ## Research profile
 
@@ -17,7 +21,7 @@ My earlier research at Kyungpook National University in South Korea covered gest
 
 ## Academic background
 
-I completed my **Ph.D. in Computer Vision at Kyungpook National University in 2024**, following an M.Sc. in Applied Mathematics with Computer Applications from Bharathiar University, India, and a B.Sc. in the same discipline from Nirmal College for Women.
+I completed my **Ph.D. in Computer Vision at Kyungpook National University in 2024**, following an M.Sc. in Applied Mathematics with Computer Applications from Bharathiar University, India, and a B.Sc. in the same discipline from Nirmala College for Women.
 
 ## Research and engineering interests
 
@@ -31,7 +35,8 @@ For specific contributions and publications, see [Research & Projects]({{ '/proj
 ## Academic and professional service
 
 - **Co-organizer / track chair:** RECCAP 2026, IIT Palakkad; North American Young Investigators Symposium on Mathematical Oncology 2026, Stanford University.
-- **Conference reviewing:** CVPR, NeurIPS, MICCAI, ACM Multimedia (2026), as listed in the October 2026 CV.
+- **Conference reviewing:** CVPR, NeurIPS, MICCAI, WACV, and ACM Multimedia (2026).
+- **Associate Editor:** IEEE Journal of Biomedical and Health Informatics (JBHI), Clinical Informatics.
 - **Journal reviewing:** IEEE SMC Magazine, IEEE Access, IEEE Journal of Biomedical and Health Informatics, Computer Animation and Virtual Worlds, International Journal of Advanced Manufacturing Technology, and Journal of Autonomous Intelligence.
 - **Professional memberships:** IEEE and ACM.
 
@@ -41,4 +46,3 @@ For specific contributions and publications, see [Research & Projects]({{ '/proj
 - **2024** — Best Thesis Award, Kyungpook National University.
 - **2021–2022** — Best Paper Awards at multiple conferences, as listed in the CV.
 
-This page distinguishes reviewing and organizing service from editorial appointments, and does not imply positions not documented in the CV.
