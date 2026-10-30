@@ -10,4 +10,8 @@ TRIAGE-MIL explores informative instance selection and semantic relationships am
 
 **Role:** Lead researcher. Research tasks include model development, higher-order representation learning and survival-prediction evaluation.
 
-**Publication status:** The repository bibliography records the work as *provisionally accepted at MICCAI 2026*. Check the [publication entry]({{ '/publications/' | relative_url }}) before treating this as a final proceedings publication.
+**Publication:** TRIAGE-MIL appears in *Medical Image Computing and Computer Assisted Intervention — MICCAI 2026* (Springer proceedings publication year: **2027**), pp. 653–663. DOI: [10.1007/978-3-032-38172-9_62](https://doi.org/10.1007/978-3-032-38172-9_62).
+
+[Read the manuscript](https://papers.miccai.org/miccai-2026/paper/4151_paper.pdf) · [Source code](https://github.com/barathi-1993/TRIAGE-MIL)
+
+The original manuscript figure will be added to this research page after its image asset is provided.
