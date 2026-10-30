@@ -2,7 +2,6 @@
 layout: page
 title: Industrial Anomaly Detection
 description: Deep learning and spectral clustering for fabric defect detection and localization
-img: assets/img/anomaly_detection_preview.png
 importance: 6
 category: computer-vision
 ---
