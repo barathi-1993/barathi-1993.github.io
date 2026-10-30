@@ -36,6 +36,6 @@ nav_order: 4
 
 - **Ph.D., Computer Vision**, Kyungpook National University, South Korea, 2024.
 - **M.Sc., Applied Mathematics with Computer Applications**, Bharathiar University, India, 2015.
-- **B.Sc., Applied Mathematics with Computer Applications**, Nirmal College for Women, India, 2013.
+- **B.Sc., Applied Mathematics with Computer Applications**, Nirmala College for Women, India, 2013.
 
 For detailed publications, see [Publications]({{ '/publications/' | relative_url }}). For academic activities, see [Service & Awards]({{ '/service/' | relative_url }}).
