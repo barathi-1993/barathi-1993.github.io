@@ -2,7 +2,6 @@
 layout: page
 title: Gesture2Music
 description: Low-latency real-time framework for continuous gesture-driven music generation
-img: assets/img/gesture2music_preview.png
 importance: 5
 category: computer-vision
 ---
