@@ -17,7 +17,7 @@ My earlier research at Kyungpook National University in South Korea covered gest
 
 ## Academic background
 
-I completed my **Ph.D. in Computer Vision at Kyungpook National University in 2024**, following an M.Sc. in Applied Mathematics with Computer Applications from Bharathiar University, India, and a B.Sc. in the same discipline from Nirmal College for Women.
+I completed my **Ph.D. in Computer Vision at Kyungpook National University in 2024**, following an M.Sc. in Applied Mathematics with Computer Applications from Bharathiar University, India, and a B.Sc. in the same discipline from Nirmala College for Women.
 
 ## Research and engineering interests
 
