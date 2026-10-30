@@ -24,7 +24,7 @@ This online CV summarizes the most recent supplied CV (October 29, 2026). The [e
 
 - **Ph.D. in Computer Vision**, Kyungpook National University — 2024.
 - **M.Sc. in Applied Mathematics with Computer Applications**, Bharathiar University — 2015.
-- **B.Sc. in Applied Mathematics with Computer Applications**, Nirmal College for Women — 2013.
+- **B.Sc. in Applied Mathematics with Computer Applications**, Nirmala College for Women — 2013.
 
 ## Research
 
