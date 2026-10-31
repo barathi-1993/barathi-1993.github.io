@@ -18,7 +18,7 @@ html,body{max-width:100%;overflow-x:clip}
   .navbar .container{max-width:100%;padding-inline:1.1rem}
 }
 @media (max-width:767px){
-  main.container.mt-5{width:100%;padding-right:1rem;padding-left:1rem}
+  .container.mt-5[role="main"]{width:100%;padding-right:1rem;padding-left:1rem}
   .post{max-width:100%}
   .post h1,.post .post-title{font-size:clamp(1.4rem,6vw,2rem);line-height:1.2}
   .post h2{font-size:clamp(1.18rem,4.6vw,1.55rem)}
@@ -34,7 +34,7 @@ html,body{max-width:100%;overflow-x:clip}
   .research-visual img{width:100%;min-width:560px;max-width:none;height:auto}
 }
 @media (max-width:420px){
-  main.container.mt-5{padding-left:.85rem;padding-right:.85rem}
+  .container.mt-5[role="main"]{padding-left:.85rem;padding-right:.85rem}
   .post article p,.post article li{overflow-wrap:anywhere}
   .publications .title{font-size:1rem;line-height:1.45}
   .publications .author,.publications .periodical{line-height:1.5}
