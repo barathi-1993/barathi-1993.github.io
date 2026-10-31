@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "Journal papers, conference papers, workshop contributions, and manuscripts, with status recorded in each entry.",
+          description: "Journal articles, conference contributions, books and patents.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -57,7 +57,7 @@ ninja.data = [{
           title: 'Received the Charles B. Carrington Memorial Award for Outstanding Poster Presentation at Stanford...',
           description: "",
           section: "News",},{id: "news-two-papers-accepted-at-cvpr-2026-gesture2music-ipa-workshop-and-contrast-enhanced-gating-in-grus-women-in-computer-vision-track",
-          title: 'Two papers accepted at CVPR 2026 — Gesture2Music (IPA Workshop) and Contrast-Enhanced Gating...',
+          title: 'Two papers accepted at CVPR 2026: Gesture2Music (IPA Workshop) and Contrast-Enhanced Gating in...',
           description: "",
           section: "News",},{id: "projects-real-time-emotion-recognition-system",
           title: 'Real-Time Emotion Recognition System',
