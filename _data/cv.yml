@@ -15,59 +15,59 @@
   contents:
     - title: Ph.D. in Computer Vision
       institution: Kyungpook National University, Daegu, South Korea
-      year: 2020 – 2024
+      year: 2020 to 2024
       description:
         - "Awarded the <strong>Best Thesis Award (2024)</strong>."
         - "Research on gesture recognition, anomaly detection, and small-object detection."
     - title: M.Sc. in Applied Mathematics with Computer Applications
       institution: Bharathiar University, Coimbatore, India
-      year: 2013 – 2015
+      year: 2013 to 2015
 
 - title: Employment
   type: time_table
   contents:
     - title: Post-doctoral Scholar
       institution: Stanford University, California, USA
-      year: 07/2024 – Present
+      year: 07/2024 to Present
       description:
         - "Center for AI in Medicine & Imaging (CAIMI), Department of Pathology."
         - "Working on multimodal computational pathology and whole-slide image analysis."
     - title: Research Assistant
       institution: Kyungpook National University, Daegu, South Korea
-      year: 03/2021 – 02/2024
+      year: 03/2021 to 02/2024
 
 - title: Selected Research Projects
   type: time_table
   contents:
     - title: Multi-modal Analysis in Digital Pathology
-      year: 07/2024 – Present
+      year: 07/2024 to Present
       description:
         - "Funder: National Institutes of Health (NIH), USA."
         - "End-to-end pipelines for WSI and tile-level tissue classification and segmentation."
         - "Training and deploying pathology foundation models (image + text) for multimodal analysis."
         - "Curating large-scale tile-level tissue datasets for benchmarking and reproducibility."
     - title: Abnormal Image Detection and Localization of Fabric Products
-      year: 09/2022 – 02/2024
+      year: 09/2022 to 02/2024
       description:
         - "Funder: National Research Foundation (NRF), South Korea."
         - "Role: Project Lead."
         - "Spectral clustering for defect/non-defect classification; transfer-learning-based defect localization."
     - title: Gesture Recognition
-      year: 02/2022 – 05/2023
+      year: 02/2022 to 05/2023
       description:
         - "Real-time gesture-driven music generation and Indian Sign Language detection."
         - "MediaPipe-based landmark extraction with GRU-based temporal modeling."
     - title: Lightweight Model for Disabled Sign Detection (LF-YOLOv5)
-      year: 07/2021 – 12/2021
+      year: 07/2021 to 12/2021
       description:
         - "Enhanced YOLOv5 with PANet and Weighted BiFPN for small-object detection."
         - "Reduced FLOPs/parameters while maintaining detection accuracy."
     - title: Korean Handwritten Text Recognition
-      year: 12/2021 – 02/2022
+      year: 12/2021 to 02/2022
       description:
         - "CNN-based text detection with Bi-LSTM-based historical Korean character transcription."
     - title: Real-Time Emotion Recognition System
-      year: 03/2021 – 02/2022
+      year: 03/2021 to 02/2022
       description:
         - "Digital twin-based emotion recognition for personalized healthcare."
         - "MediaPipe-based multi-region landmark extraction and ML-based emotion classification."
@@ -81,7 +81,7 @@
     - year: 2024
       items:
         - "Best Thesis Award, Kyungpook National University."
-    - year: 2021 – 2022
+    - year: 2021 to 2022
       items:
         - "Best Paper Awards across multiple conferences."
     - year: 2015
@@ -95,17 +95,17 @@
       items:
         - "International Conference on Recent Advances in Electronics, Communication, Computing, Automation, and Power (RECCAP 2026), IIT Palakkad, India."
         - "North American Young Investigators Symposium on Mathematical Oncology 2026, Stanford University."
-    - title: Reviewer — Conferences
+    - title: Reviewer: Conferences
       items:
         - "CVPR, NeurIPS, MICCAI, ACM-MM (2026)"
-    - title: Reviewer — Journals
+    - title: Reviewer: Journals
       items:
-        - "IEEE SMC Magazine (2023 – Present)"
-        - "IEEE Access (2022 – Present)"
-        - "IEEE Journal of Biomedical and Health Informatics (2023 – Present)"
+        - "IEEE SMC Magazine (2023 to Present)"
+        - "IEEE Access (2022 to Present)"
+        - "IEEE Journal of Biomedical and Health Informatics (2023 to Present)"
         - "Computer Animation and Virtual Worlds (2023)"
-        - "International Journal of Advanced Manufacturing Technology (2022 – Present)"
-        - "Journal of Autonomous Intelligence (2023 – Present)"
+        - "International Journal of Advanced Manufacturing Technology (2022 to Present)"
+        - "Journal of Autonomous Intelligence (2023 to Present)"
     - title: Professional Memberships
       items:
         - "IEEE"
@@ -116,23 +116,23 @@
   contents:
     - title: Computer Vision
       items:
-        - "Classification — Vision Transformers (ViT), Transfer Learning, Fine-tuning"
-        - "Object Detection — YOLO, DETR"
-        - "Segmentation — U-Net, SegFormer, SAM"
-        - "Annotation — QuPath, Roboflow"
+        - "Classification: Vision Transformers (ViT), Transfer Learning, Fine-tuning"
+        - "Object Detection: YOLO, DETR"
+        - "Segmentation: U-Net, SegFormer, SAM"
+        - "Annotation: QuPath, Roboflow"
     - title: Generative AI
       items:
-        - "Architectures — Transformers (LLM), Attention Mechanisms, Multi-Modal (VLM)"
-        - "Optimization — Knowledge Distillation"
+        - "Architectures: Transformers (LLM), Attention Mechanisms, Multi-Modal (VLM)"
+        - "Optimization: Knowledge Distillation"
     - title: MLOps & Engineering
       items:
-        - "Lifecycle — MLflow, Experiment Tracking, Model Versioning"
-        - "Deployment — Streamlit, Docker"
-        - "Infrastructure — Multi-GPU Handling, Distributed Training"
+        - "Lifecycle: MLflow, Experiment Tracking, Model Versioning"
+        - "Deployment: Streamlit, Docker"
+        - "Infrastructure: Multi-GPU Handling, Distributed Training"
     - title: DevOps
       items:
-        - "Platforms — AWS, GCP, Docker"
-        - "CI/CD — GitHub Actions, Git"
+        - "Platforms: AWS, GCP, Docker"
+        - "CI/CD: GitHub Actions, Git"
 
 - title: Research Interests
   type: list
@@ -141,4 +141,4 @@
     - "Image classification, object detection, and segmentation"
     - "Anomaly detection"
     - "Gesture recognition"
-    - "Vision–language modeling for healthcare"
+    - "Vision-language modeling for healthcare"
