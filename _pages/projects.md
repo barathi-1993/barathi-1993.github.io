@@ -2,103 +2,139 @@
 layout: page
 title: Research
 permalink: /projects/
-description: Selected research contributions and funded programs spanning medical AI, computer vision, and multimodal learning.
+description: Funded research projects spanning medical AI, computer vision, multimodal learning, and intelligent systems.
 nav: true
 nav_order: 2
 ---
 
 <style>
-.research-intro{max-width:780px;margin-bottom:1.75rem;color:var(--global-text-color)}
-.research-section-head{margin:2.5rem 0 .5rem}
-.portfolio-project-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;margin:1.25rem 0}
-.portfolio-project{border:1px solid var(--global-divider-color);border-radius:12px;padding:1.3rem;display:flex;flex-direction:column;background:var(--global-bg-color);transition:border-color .2s ease,transform .2s ease}
-.portfolio-project:hover{border-color:var(--global-theme-color);transform:translateY(-2px)}
-.portfolio-project .research-figure{width:100%;aspect-ratio:16/9;object-fit:contain;display:block;margin:0 0 1rem;background:var(--global-bg-color);border-radius:8px}
-.portfolio-project h3{font-size:1.15rem;margin:0 0 .5rem}
-.portfolio-project p{flex-grow:1;font-size:.94rem;margin-bottom:.85rem}
-.portfolio-project .project-tag{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--global-theme-color);font-weight:700;margin-bottom:.6rem}
-.research-programs{display:grid;gap:1rem;margin:1.4rem 0}
-.research-program{border:1px solid var(--global-divider-color);border-left:3px solid var(--global-theme-color);border-radius:9px;padding:1.05rem 1.25rem}
-.research-program h3{font-size:1.08rem;margin:.25rem 0 .5rem}
-.research-program .research-period{font-size:.82rem;color:var(--global-text-color-light);font-weight:600;letter-spacing:.025em}
-.research-program .program-meta{font-size:.87rem;margin-bottom:.55rem}
-.research-program p{font-size:.94rem;margin:0 0 .5rem}
-.research-program .related-work{font-size:.85rem;margin:0}
-@media (prefers-reduced-motion:reduce){.portfolio-project{transition:none}.portfolio-project:hover{transform:none}}
+.research-lede{max-width:780px;margin:0 0 1.75rem;font-size:1.03rem;line-height:1.7}
+.research-summary{display:flex;flex-wrap:wrap;gap:.55rem;margin:0 0 2rem}
+.research-summary span{display:inline-flex;border:1px solid var(--global-divider-color);border-radius:99px;padding:.35rem .75rem;font-size:.82rem;color:var(--global-text-color)}
+.research-programs{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:1.2rem;margin:1.5rem 0 2rem}
+.research-program{border:1px solid var(--global-divider-color);border-radius:12px;padding:1.4rem;background:var(--global-bg-color);display:flex;flex-direction:column;min-width:0}
+.research-program:first-child{grid-column:1 / -1}
+.research-program .research-area{font-size:.73rem;letter-spacing:.08em;text-transform:uppercase;color:var(--global-theme-color);font-weight:700;margin-bottom:.5rem}
+.research-program h2{font-size:1.2rem;line-height:1.35;margin:.2rem 0 .75rem}
+.research-program .research-meta{font-size:.85rem;line-height:1.7;color:var(--global-text-color);margin:0 0 .85rem}
+.research-program .research-period{font-weight:600}
+.research-program .research-overview{font-size:.94rem;line-height:1.6;margin:0 0 .85rem}
+.research-program details{margin-top:auto;border-top:1px solid var(--global-divider-color);padding-top:.85rem}
+.research-program summary{color:var(--global-theme-color);font-weight:600;cursor:pointer;font-size:.91rem}
+.research-program details[open] summary{margin-bottom:.65rem}
+.research-program ul{padding-left:1.25rem;margin:.5rem 0 .75rem;font-size:.9rem;line-height:1.58}
+.research-program li{margin-bottom:.45rem}
+.research-program .research-detail-link{font-size:.87rem}
+.research-note{font-size:.87rem;color:var(--global-text-color);border-top:1px solid var(--global-divider-color);padding-top:1rem}
 </style>
 
-<div class="research-intro">
-My research spans AI for histopathology, multimodal modeling, visual recognition, and applied machine learning. The portfolio below highlights specific methods and outputs. The funded-project summary further down explains the broader programs, collaborators, responsibilities, and research settings behind this work.
+<div class="research-lede">
+My research focuses on developing reliable, end-to-end AI systems—from data collection, annotation, and model development to evaluation and deployment. The projects below summarize the broader research programs I have worked on, rather than repeating individual papers or method names already listed under <a href="{{ '/publications/' | relative_url }}">Publications</a>.
 </div>
 
-## Selected research & technical contributions
-
-<div class="portfolio-project-grid">
-{% assign sorted_projects = site.projects | sort: 'importance' %}
-{% for project in sorted_projects %}
-  <article class="portfolio-project">
-    {% if project.img %}
-      <a href="{{ project.url | relative_url }}">
-        <img class="research-figure" src="{{ project.img | relative_url }}" alt="Research figure for {{ project.title }}" loading="lazy">
-      </a>
-    {% endif %}
-    <div class="project-tag">{{ project.category | replace: '-', ' ' }}</div>
-    <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
-    <p>{{ project.description }}</p>
-    <a href="{{ project.url | relative_url }}" aria-label="Read project details for {{ project.title }}">Explore project →</a>
-  </article>
-{% endfor %}
+<div class="research-summary" aria-label="Research areas">
+  <span>Medical &amp; Multimodal AI</span>
+  <span>Computer Vision</span>
+  <span>Human–Computer Interaction</span>
+  <span>Efficient Deep Learning</span>
+  <span>Document Intelligence</span>
 </div>
-
-## Funded research projects
-
-The following programs summarize my funded research experience, including work that spans multiple individual papers and engineering deliverables.
 
 <div class="research-programs">
-  <section class="research-program">
-    <div class="research-period">07/2024 – Present · United States</div>
-    <h3>Multimodal Analysis in Digital Pathology</h3>
-    <div class="program-meta"><strong>Funder:</strong> National Institutes of Health (NIH) · <strong>Role:</strong> Postdoctoral Researcher</div>
-    <p>Developing end-to-end computational pathology workflows for whole-slide image (WSI) preprocessing, tile-level classification and segmentation, morphology-aware dataset curation, QuPath-guided annotation, and pathology foundation-model-based image–text analysis.</p>
-    <p class="related-work"><strong>Explore:</strong> <a href="{{ '/projects/2_digital_pathology_pipeline/' | relative_url }}">Digital Pathology AI Pipeline</a> · <a href="{{ '/projects/3_mufasa/' | relative_url }}">MUFASA</a> · <a href="{{ '/projects/4_triage_mil/' | relative_url }}">TRIAGE-MIL</a> · <a href="{{ '/projects/1_starc9/' | relative_url }}">STARC-9</a></p>
-  </section>
-  <section class="research-program">
-    <div class="research-period">09/2022 – 02/2024 · South Korea</div>
-    <h3>Abnormal Image Detection and Localization for Fabric Products</h3>
-    <div class="program-meta"><strong>Funder:</strong> National Research Foundation (NRF), South Korea · <strong>Role:</strong> Project Lead</div>
-    <p>Developed image-based fabric quality-control methods using spectral clustering for defect/non-defect grouping and transfer learning with convolutional neural networks for defect localization.</p>
-    <p class="related-work"><a href="{{ '/projects/7_industrial_anomaly_detection/' | relative_url }}">Explore the industrial anomaly detection project →</a></p>
-  </section>
-  <section class="research-program">
-    <div class="research-period">02/2022 – 05/2023 · South Korea</div>
-    <h3>Gesture Recognition and Interactive Music Generation</h3>
-    <div class="program-meta"><strong>Funder:</strong> School of Computer Science and Engineering, Kyungpook National University · <strong>Role:</strong> Project Lead</div>
-    <p>Built landmark-driven gesture-recognition pipelines for Indian Sign Language (ISL) and interactive music, combining MediaPipe face/hand pose sequences with GRU-based temporal modeling and real-time output generation.</p>
-    <p class="related-work"><strong>Explore:</strong> <a href="{{ '/projects/6_gesture_recognition_isl/' | relative_url }}">Gesture Recognition and ISL</a> · <a href="{{ '/projects/5_gesture2music/' | relative_url }}">Gesture2Music</a></p>
-  </section>
-  <section class="research-program">
-    <div class="research-period">07/2021 – 12/2021 · South Korea</div>
-    <h3>Lightweight Disabled Parking Sign Detection</h3>
-    <div class="program-meta"><strong>Funder:</strong> Small and Medium Business Technology Information Promotion Agency, South Korea · <strong>Role:</strong> Project Developer and Lead</div>
-    <p>Explored lightweight YOLOv5-based detection for small disabled-parking signs, integrating multi-scale feature fusion with PANet and weighted BiFPN, and evaluating on augmented sign imagery.</p>
-    <p class="related-work"><a href="{{ '/projects/8_disabled_sign_detection/' | relative_url }}">Explore the object detection project →</a></p>
-  </section>
-  <section class="research-program">
-    <div class="research-period">12/2021 – 02/2022 · South Korea</div>
-    <h3>Korean Handwritten Text Recognition</h3>
-    <div class="program-meta"><strong>Funder:</strong> Small and Medium Business Technology Information Promotion Agency, South Korea · <strong>Role:</strong> Project Lead</div>
-    <p>Developed a two-stage approach for historical Korean handwriting, using CNN-based text-region detection and bidirectional LSTM sequence recognition for transcription.</p>
-    <p class="related-work"><a href="{{ '/projects/9_korean_handwriting/' | relative_url }}">Explore the document AI project →</a></p>
-  </section>
-  <section class="research-program">
-    <div class="research-period">03/2021 – 02/2022 · South Korea</div>
-    <h3>Real-Time Emotion Recognition System</h3>
-    <div class="program-meta"><strong>Funder:</strong> Small and Medium Business Technology Information Promotion Agency, South Korea · <strong>Role:</strong> Project Developer</div>
-    <p>Created a webcam-based emotion analysis pipeline with MediaPipe landmark extraction, model benchmarking, and integration into a prototype digital-twin-based decision-support workflow.</p>
-    <p class="related-work"><a href="{{ '/projects/10_emotion_recognition/' | relative_url }}">Explore the affective computing project →</a></p>
-  </section>
+  <article class="research-program">
+    <div class="research-area">Medical AI · Computational Pathology</div>
+    <h2>Multimodal Analysis in Digital Pathology</h2>
+    <div class="research-meta"><div class="research-period">Jul 2024 – Present</div><div><strong>Funder:</strong> National Institutes of Health (NIH), USA</div><div><strong>Role:</strong> Postdoctoral Researcher</div></div>
+    <p class="research-overview">Developing end-to-end whole-slide image (WSI) and multimodal histopathology pipelines, with an emphasis on scalable image processing, trustworthy data quality, pathology foundation models, and reproducible downstream analysis.</p>
+    <details><summary>Research objectives &amp; contributions</summary>
+      <ul>
+        <li>Build workflows for WSI and tile-level tissue classification, tumor segmentation, and image–text analysis.</li>
+        <li>Design artifact filtering, tile extraction, and image-quality checks for consistent model inputs.</li>
+        <li>Use QuPath for tumor-region annotations and reference-label quality assurance.</li>
+        <li>Curate large-scale, tile-level histopathology datasets for benchmarking and reproducible evaluation.</li>
+        <li>Train and integrate image and multimodal foundation models for biomedical analysis and reporting.</li>
+        <li>In related clinical laboratory AI work, develop automated analysis of serum protein electrophoresis and immunofixation electrophoresis, including monoclonal peak quantification and abnormal-band detection.</li>
+      </ul>
+      <p class="research-detail-link"><a href="{{ '/projects/2_digital_pathology_pipeline/' | relative_url }}">Read the digital pathology project overview →</a></p>
+    </details>
+  </article>
+
+  <article class="research-program">
+    <div class="research-area">Industrial Computer Vision</div>
+    <h2>Abnormal Image Detection and Localization of Fabric Products</h2>
+    <div class="research-meta"><div class="research-period">Sep 2022 – Feb 2024</div><div><strong>Funder:</strong> National Research Foundation (NRF), South Korea</div><div><strong>Role:</strong> Project Lead</div></div>
+    <p class="research-overview">Developed image-analysis methods to distinguish defective from non-defective fabric products and localize irregularities for automated quality-control inspection.</p>
+    <details><summary>Research objectives &amp; contributions</summary>
+      <ul>
+        <li>Apply spectral clustering to separate defect and non-defect image groups.</li>
+        <li>Use transfer learning with deep convolutional neural networks for defect detection and localization.</li>
+        <li>Develop repeatable vision-based workflows for industrial anomaly inspection.</li>
+      </ul>
+      <p class="research-detail-link"><a href="{{ '/projects/7_industrial_anomaly_detection/' | relative_url }}">Read the industrial vision project overview →</a></p>
+    </details>
+  </article>
+
+  <article class="research-program">
+    <div class="research-area">Gesture Recognition · Human–Computer Interaction</div>
+    <h2>Gesture Recognition and Interactive Systems</h2>
+    <div class="research-meta"><div class="research-period">Feb 2022 – May 2023</div><div><strong>Funder:</strong> School of Computer Science and Engineering, Kyungpook National University, South Korea</div><div><strong>Role:</strong> Project Lead</div></div>
+    <p class="research-overview">Investigated real-time gesture understanding for Indian Sign Language and interactive applications through visual landmark tracking and temporal sequence learning.</p>
+    <details><summary>Research objectives &amp; contributions</summary>
+      <ul>
+        <li>Curate multi-label datasets for sign-language recognition and gesture-driven music interaction.</li>
+        <li>Extract timestamped face, hand, and pose landmark sequences using MediaPipe.</li>
+        <li>Train GRU-based models to learn the temporal dynamics of human gestures.</li>
+        <li>Map recognized gestures into language or musical representations for interactive output.</li>
+      </ul>
+      <p class="research-detail-link"><a href="{{ '/projects/6_gesture_recognition_isl/' | relative_url }}">Read the gesture recognition project overview →</a></p>
+    </details>
+  </article>
+
+  <article class="research-program">
+    <div class="research-area">Efficient Object Detection</div>
+    <h2>Lightweight Model for Disabled Parking Sign Detection</h2>
+    <div class="research-meta"><div class="research-period">Jul 2021 – Dec 2021</div><div><strong>Funder:</strong> Small and Medium Business Technology Information Promotion Agency, South Korea</div><div><strong>Role:</strong> Project Developer and Lead</div></div>
+    <p class="research-overview">Developed a lightweight, feature-fusion-based object detector to improve small disabled-parking-sign localization while controlling model size and computational cost.</p>
+    <details><summary>Research objectives &amp; contributions</summary>
+      <ul>
+        <li>Enhance YOLOv5 for small-object detection through PANet and weighted BiFPN feature fusion.</li>
+        <li>Explore architectural simplifications to reduce parameters and floating-point operations.</li>
+        <li>Evaluate on 1,025 original sign images expanded through augmentation to approximately 15,000 samples.</li>
+      </ul>
+      <p class="research-detail-link"><a href="{{ '/projects/8_disabled_sign_detection/' | relative_url }}">Read the object detection project overview →</a></p>
+    </details>
+  </article>
+
+  <article class="research-program">
+    <div class="research-area">Document AI · Sequence Modeling</div>
+    <h2>Korean Handwritten Text Recognition</h2>
+    <div class="research-meta"><div class="research-period">Dec 2021 – Feb 2022</div><div><strong>Funder:</strong> Small and Medium Business Technology Information Promotion Agency, South Korea</div><div><strong>Role:</strong> Project Lead</div></div>
+    <p class="research-overview">Built a document understanding pipeline for locating historical Korean handwritten text and converting detected regions into machine-readable transcription.</p>
+    <details><summary>Research objectives &amp; contributions</summary>
+      <ul>
+        <li>Prepare handwritten text annotations and bounding-box labels.</li>
+        <li>Detect text regions using CNN-based localization methods.</li>
+        <li>Transcribe handwritten sequences using bidirectional LSTM models.</li>
+      </ul>
+      <p class="research-detail-link"><a href="{{ '/projects/9_korean_handwriting/' | relative_url }}">Read the handwriting recognition project overview →</a></p>
+    </details>
+  </article>
+
+  <article class="research-program">
+    <div class="research-area">Affective Computing · Intelligent Systems</div>
+    <h2>Real-Time Emotion Recognition System</h2>
+    <div class="research-meta"><div class="research-period">Mar 2021 – Feb 2022</div><div><strong>Funder:</strong> Small and Medium Business Technology Information Promotion Agency, South Korea</div><div><strong>Role:</strong> Project Developer</div></div>
+    <p class="research-overview">Investigated webcam-based expression analysis and an emotion-aware decision-support prototype using multi-region landmark extraction and machine-learning models.</p>
+    <details><summary>Research objectives &amp; contributions</summary>
+      <ul>
+        <li>Curate a custom webcam dataset with diverse facial expressions and recording conditions.</li>
+        <li>Extract face, hand, and body landmarks with MediaPipe.</li>
+        <li>Train and benchmark multiple machine-learning approaches for real-time emotion recognition.</li>
+        <li>Explore integration with a digital-twin prototype; this research is not presented as a clinically validated diagnostic system.</li>
+      </ul>
+      <p class="research-detail-link"><a href="{{ '/projects/10_emotion_recognition/' | relative_url }}">Read the emotion recognition project overview →</a></p>
+    </details>
+  </article>
 </div>
 
-## Research engineering
-
-Across these programs, I work on data preparation and quality control, annotation, model training, reproducible evaluation, and the integration of research models into usable software. For publication-specific results, see [Publications]({{ '/publications/' | relative_url }}); for a broader professional timeline, see [Experience]({{ '/experience/' | relative_url }}).
+<p class="research-note">Research projects summarize the broader work and responsibilities. Manuscript titles, acceptance status, and publication links are presented separately under <a href="{{ '/publications/' | relative_url }}">Publications</a>.</p>
