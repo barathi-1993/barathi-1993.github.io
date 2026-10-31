@@ -31,10 +31,8 @@ In related collaborative work, developed AI-assisted workflows for serum protein
 
 This clinical chemistry work is described separately from the NIH-funded histopathology pipeline; the funding listed above is not intended as a claim about its specific funding source.
 
-## Related research
+## Research methods and capabilities
 
-- [MUFASA: WSI preprocessing and information utility]({{ '/projects/3_mufasa/' | relative_url }})
-- [STARC-9: tissue classification dataset]({{ '/projects/1_starc9/' | relative_url }})
-- [TRIAGE-MIL: WSI-based survival prediction]({{ '/projects/4_triage_mil/' | relative_url }})
+The broader research program also covers robust WSI preprocessing, information-aware image selection, tissue-level dataset development, foundation-model representation learning, and patient-level predictive modeling.
 
-For publication-specific metrics and manuscript status, see [Publications]({{ '/publications/' | relative_url }}).
+For manuscript titles, results, and publication status, see [Publications]({{ '/publications/' | relative_url }}).
