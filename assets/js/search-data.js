@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-research",
           title: "Research",
-          description: "Selected research and engineering work in medical AI, computer vision, and applied machine learning.",
+          description: "Funded research projects spanning medical AI, computer vision, multimodal learning, and intelligent systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -59,14 +59,19 @@ ninja.data = [{
           section: "News",},{id: "news-two-papers-accepted-at-cvpr-2026-gesture2music-ipa-workshop-and-contrast-enhanced-gating-in-grus-women-in-computer-vision-track",
           title: 'Two papers accepted at CVPR 2026 — Gesture2Music (IPA Workshop) and Contrast-Enhanced Gating...',
           description: "",
-          section: "News",},{id: "projects-starc-9",
+          section: "News",},{id: "projects-real-time-emotion-recognition-system",
+          title: 'Real-Time Emotion Recognition System',
+          description: "Webcam-based affective computing and landmark-driven decision-support prototyping",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_emotion_recognition/";
+            },},{id: "projects-starc-9",
           title: 'STARC-9',
           description: "Large-scale multi-class tissue classification dataset for colorectal cancer histopathology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_starc9/";
             },},{id: "projects-digital-pathology-ai-pipeline",
           title: 'Digital Pathology AI Pipeline',
-          description: "Whole-slide image analysis, quality control, annotation and multimodal workflows",
+          description: "Whole-slide image preprocessing, annotation, multimodal modeling and clinical laboratory AI workflows",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_digital_pathology_pipeline/";
             },},{id: "projects-mufasa",
@@ -84,11 +89,26 @@ ninja.data = [{
           description: "Low-latency real-time framework for continuous gesture-driven music generation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_gesture2music/";
+            },},{id: "projects-gesture-recognition-and-indian-sign-language",
+          title: 'Gesture Recognition and Indian Sign Language',
+          description: "Landmark-based gesture understanding with MediaPipe and GRU sequence models",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_gesture_recognition_isl/";
             },},{id: "projects-industrial-anomaly-detection",
           title: 'Industrial Anomaly Detection',
-          description: "Deep learning and spectral clustering for fabric defect detection and localization",
+          description: "Spectral clustering and transfer learning for fabric defect detection and localization",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_industrial_anomaly_detection/";
+            },},{id: "projects-lightweight-disabled-parking-sign-detection",
+          title: 'Lightweight Disabled Parking Sign Detection',
+          description: "Efficient small-object recognition using an enhanced YOLOv5 detection architecture",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_disabled_sign_detection/";
+            },},{id: "projects-korean-handwritten-text-recognition",
+          title: 'Korean Handwritten Text Recognition',
+          description: "Historical handwriting transcription using CNN-based text detection and Bi-LSTM sequence recognition",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_korean_handwriting/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
