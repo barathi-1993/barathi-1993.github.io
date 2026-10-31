@@ -42,8 +42,8 @@ For specific contributions and publications, see [Research & Projects]({{ '/proj
 
 ## Selected honors
 
-- **2026** — Best Oral Presentation Runner-Up, Women in MICCAI (WiM) 2026.
-- **2026** — Charles B. Carrington Memorial Award for Outstanding Poster Presentation, Stanford University.
-- **2024** — Best Thesis Award, Kyungpook National University.
-- **2021–2022** — Best Paper Awards at multiple conferences, as listed in the CV.
+- **2026**: Best Oral Presentation Runner-Up, Women in MICCAI (WiM) 2026.
+- **2026**: Charles B. Carrington Memorial Award for Outstanding Poster Presentation, Stanford University.
+- **2024**: Best Thesis Award, Kyungpook National University.
+- **2021 to 2022**: Best Paper Awards at multiple conferences, as listed in the CV.
 

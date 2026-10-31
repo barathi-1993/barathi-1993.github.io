@@ -9,14 +9,14 @@ nav_order: 4
 
 ## Professional experience
 
-**Postdoctoral Scholar — Stanford University, Department of Pathology** · July 2024–present (as listed on the October 2026 CV)
+**Postdoctoral Scholar ,  Stanford University, Department of Pathology** · July 2024 to present (as listed on the October 2026 CV)
 
 - Developed end-to-end pipelines for whole-slide image preprocessing, quality control, tissue classification, segmentation, and clinical image analysis.
 - Worked with image and text foundation models for multimodal pathology tasks.
 - Built QuPath annotation and quality-assurance workflows and curated tile-level tissue datasets.
 - Developed Python/PyTorch workflows for research experiments, model evaluation, and visual analytics.
 
-**Research Assistant — Kyungpook National University, South Korea** · September 2020–February 2024
+**Research Assistant ,  Kyungpook National University, South Korea** · September 2020 to February 2024
 
 - Conducted research in computer vision, gesture recognition, industrial defect detection, small-object detection and handwriting recognition.
 - Developed temporal gesture-recognition workflows using MediaPipe and sequence models.

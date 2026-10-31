@@ -6,10 +6,16 @@ importance: 2
 category: medical-ai
 ---
 
-This research brings together the major stages of building reproducible AI systems for histopathology—from whole-slide image (WSI) preparation and quality control to model development, region-level annotation, and downstream analysis.
+<figure style="margin:1.35rem 0;">
+  <img src="{{ '/assets/img/research/digital-pathology-workflow.svg' | relative_url }}" alt="Whole-slide image analysis from tissue scanning to automated reporting" class="img-fluid rounded" width="1200" height="350" loading="lazy" style="width:100%;height:auto;">
+  <figcaption style="font-size:.8rem;text-align:center;color:var(--global-text-color-light);margin-top:.4rem;">Conceptual research workflow</figcaption>
+</figure>
+
+
+This research brings together the major stages of building reproducible AI systems for histopathology, from whole-slide image (WSI) preparation and quality control to model development, region-level annotation, and downstream analysis.
 
 **Research program:** Multimodal Analysis in Digital Pathology  
-**Period:** July 2024 – Present  
+**Period:** July 2024 to Present  
 **Funder:** National Institutes of Health (NIH), USA  
 **Role:** Postdoctoral Researcher
 
@@ -17,7 +23,7 @@ This research brings together the major stages of building reproducible AI syste
 
 - Developed end-to-end WSI pipelines for tissue classification, tumor-region segmentation, and multimodal pathology analysis.
 - Built scalable preprocessing procedures for artifact filtering, tissue/tile extraction, and image quality checks.
-- Applied pathology foundation models and image–text representations for downstream analysis and reporting workflows.
+- Applied pathology foundation models and image-text representations for downstream analysis and reporting workflows.
 - Used QuPath for tumor-region annotation and quality assurance of reference labels.
 - Curated large-scale tissue-tile datasets to support robust experimentation and reproducible model evaluation.
 

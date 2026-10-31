@@ -6,9 +6,15 @@ importance: 6
 category: computer-vision
 ---
 
+<figure style="margin:1.35rem 0;">
+  <img src="{{ '/assets/img/research/fabric-defect-workflow.svg' | relative_url }}" alt="Automated fabric inspection and anomaly localization" class="img-fluid rounded" width="1200" height="350" loading="lazy" style="width:100%;height:auto;">
+  <figcaption style="font-size:.8rem;text-align:center;color:var(--global-text-color-light);margin-top:.4rem;">Conceptual research workflow</figcaption>
+</figure>
+
+
 This project developed methods for identifying abnormal fabric-product images and localizing defects for automated visual quality control.
 
-**Research period:** September 2022 – February 2024  
+**Research period:** September 2022 to February 2024  
 **Funder:** National Research Foundation (NRF), South Korea  
 **Role:** Project Lead
 
