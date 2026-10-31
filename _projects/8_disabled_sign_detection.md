@@ -6,9 +6,15 @@ importance: 8
 category: computer-vision
 ---
 
+<figure style="margin:1.35rem 0;">
+  <img src="{{ '/assets/img/research/parking-sign-workflow.svg' | relative_url }}" alt="Small parking sign recognition from object detection through localization" class="img-fluid rounded" width="1200" height="350" loading="lazy" style="width:100%;height:auto;">
+  <figcaption style="font-size:.8rem;text-align:center;color:var(--global-text-color-light);margin-top:.4rem;">Conceptual research workflow</figcaption>
+</figure>
+
+
 This project studied how to recognize small disabled-parking signs in complex imagery while reducing the computational cost of the detection model. It explored feature fusion and architectural simplification for practical object detection.
 
-**Research period:** July 2021 – December 2021  
+**Research period:** July 2021 to December 2021  
 **Funder:** Small and Medium Business Technology Information Promotion Agency, South Korea  
 **Role:** Project Developer and Lead
 
