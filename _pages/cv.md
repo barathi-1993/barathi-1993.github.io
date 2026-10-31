@@ -17,14 +17,14 @@ This online CV summarizes the most recent supplied CV (October 29, 2026). The [e
 
 ## Appointments
 
-- **Postdoctoral Scholar**, Department of Pathology, Stanford University — July 2024–present (per supplied CV).
-- **Research Assistant**, Kyungpook National University, South Korea — September 2020–February 2024.
+- **Postdoctoral Scholar**, Department of Pathology, Stanford University ,  July 2024 to present (per supplied CV).
+- **Research Assistant**, Kyungpook National University, South Korea ,  September 2020 to February 2024.
 
 ## Education
 
-- **Ph.D. in Computer Vision**, Kyungpook National University — 2024.
-- **M.Sc. in Applied Mathematics with Computer Applications**, Bharathiar University — 2015.
-- **B.Sc. in Applied Mathematics with Computer Applications**, Nirmala College for Women — 2013.
+- **Ph.D. in Computer Vision**, Kyungpook National University ,  2024.
+- **M.Sc. in Applied Mathematics with Computer Applications**, Bharathiar University ,  2015.
+- **B.Sc. in Applied Mathematics with Computer Applications**, Nirmala College for Women ,  2013.
 
 ## Research
 
