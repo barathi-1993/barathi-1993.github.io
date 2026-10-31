@@ -297,6 +297,7 @@ scholar:
   details_link: Details
 
   query: "@*"
+  sort_by: none # Preserve the order of entries in references.txt within year groups
   group_by: year
   group_order: descending
 
