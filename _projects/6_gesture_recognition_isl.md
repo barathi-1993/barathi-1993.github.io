@@ -29,6 +29,4 @@ This project investigated temporal gesture understanding for Indian Sign Languag
 
 Computer vision, MediaPipe, landmark tracking, temporal sequence modeling, GRUs, gesture classification, human–computer interaction.
 
-## Related work
-
-See [Gesture2Music]({{ '/projects/5_gesture2music/' | relative_url }}) for the separately presented research on continuous gesture-driven music generation.
+For manuscript titles and conference papers arising from this research area, see [Publications]({{ '/publications/' | relative_url }}).
