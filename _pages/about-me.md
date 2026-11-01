@@ -29,7 +29,7 @@ My current interests include reliable medical image analysis, multimodal vision-
 
 I value rigorous evaluation, careful dataset preparation, transparent reporting of research status, and practical applications of AI.
 
-For specific contributions and publications, see [Research & Projects]({{ '/projects/' | relative_url }}) and [Publications]({{ '/publications/' | relative_url }}). My [Experience]({{ '/experience/' | relative_url }}) page provides further professional background.
+For specific contributions and publications, see [Research & Projects]({{ '/projects/' | relative_url }}) and [Publications]({{ '/publications/' | relative_url }}). My [CV]({{ '/cv/' | relative_url }}) page provides further professional background.
 
 
 ## Academic and professional service
