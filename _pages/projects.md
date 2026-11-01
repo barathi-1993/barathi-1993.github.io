@@ -18,6 +18,7 @@ nav_order: 2
 .research-programs{display:grid;grid-template-columns:minmax(0,1fr);gap:1.45rem;max-width:1100px;margin:1.5rem auto 2rem}
 .research-program{border:1px solid var(--global-divider-color);border-radius:14px;padding:clamp(1.15rem,2.8vw,1.8rem);background:var(--global-bg-color);display:flex;flex-direction:column;min-width:0;box-shadow:0 6px 26px rgba(40,48,87,.045)}
 .research-program:first-child{grid-column:auto}
+.research-program{scroll-margin-top:110px}
 .research-program[hidden]{display:none!important}
 .research-program .research-area{font-size:.73rem;letter-spacing:.08em;text-transform:uppercase;color:var(--global-theme-color);font-weight:700;margin-bottom:.5rem}
 .research-program h2{font-size:1.2rem;line-height:1.35;margin:.2rem 0 .75rem}
@@ -77,7 +78,7 @@ My research focuses on developing reliable, end-to-end AI systems, from data col
     </details>
   </article>
 
-  <article class="research-program" data-research-tags="computer-vision">
+  <article class="research-program" data-research-tags="computer-vision" data-research-id="fabric-anomaly">
     <div class="research-area">Industrial Computer Vision</div>
     <h2>Abnormal Image Detection and Localization of Fabric Products</h2>
     <figure class="research-visual">
