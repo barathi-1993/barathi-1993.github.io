@@ -30,16 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-experience",
-          title: "Experience",
-          description: "Research experience, technical skills, and academic background.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/experience/";
-          },
         },{id: "nav-cv",
           title: "CV",
-          description: "Academic and technical curriculum vitae, research experience, education, and professional service.",
+          description: "Education, research experience, technical capabilities and professional service.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
