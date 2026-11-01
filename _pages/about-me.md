@@ -34,62 +34,52 @@ nav_order: 1
 <div class="about-accordion" aria-label="About sections">
 <details class="about-section" name="about-sections" open>
   <summary><span class="about-section-number" aria-hidden="true">01</span><span class="about-section-label">Research profile</span><span class="about-chevron" aria-hidden="true"></span></summary>
-  <div class="about-section-content" markdown="1">
-
-I am a computer vision researcher working at the intersection of computational pathology, medical imaging, multimodal artificial intelligence, and practical machine learning systems. My research combines algorithm design with the development of reproducible data-processing and model-evaluation pipelines.
-
-During my postdoctoral research in Stanford University's Department of Pathology, I have worked on whole-slide histopathology image analysis, including tile extraction, artifact filtering, quality control, tissue classification, segmentation, and annotation workflows. I have also worked with image and text foundation models for multimodal pathology applications, and contributed to dataset construction and clinical prediction research.
-
-My earlier research at Kyungpook National University in South Korea covered gesture recognition, real-time visual interaction, industrial anomaly detection, small-object detection, and handwriting recognition. This breadth motivates my interest in methods that can generalize across domains and be integrated into usable tools.
-
-  </div>
+  <div class="about-section-content">
+<p>I am a computer vision researcher working at the intersection of computational pathology, medical imaging, multimodal artificial intelligence, and practical machine learning systems. My research combines algorithm design with the development of reproducible data-processing and model-evaluation pipelines.</p>
+<p>During my postdoctoral research in Stanford University's Department of Pathology, I have worked on whole-slide histopathology image analysis, including tile extraction, artifact filtering, quality control, tissue classification, segmentation, and annotation workflows. I have also worked with image and text foundation models for multimodal pathology applications, and contributed to dataset construction and clinical prediction research.</p>
+<p>My earlier research at Kyungpook National University in South Korea covered gesture recognition, real-time visual interaction, industrial anomaly detection, small-object detection, and handwriting recognition. This breadth motivates my interest in methods that can generalize across domains and be integrated into usable tools.</p>
+</div>
 </details>
 
 <details class="about-section" name="about-sections">
   <summary><span class="about-section-number" aria-hidden="true">02</span><span class="about-section-label">Academic background</span><span class="about-chevron" aria-hidden="true"></span></summary>
-  <div class="about-section-content" markdown="1">
-
-I completed my **Ph.D. in Computer Vision at Kyungpook National University in 2024**, following an M.Sc. in Applied Mathematics with Computer Applications from Bharathiar University, India, and a B.Sc. in the same discipline from Nirmala College for Women.
-
-  </div>
+  <div class="about-section-content">
+<p>I completed my <strong>Ph.D. in Computer Vision at Kyungpook National University in 2024</strong>, following an M.Sc. in Applied Mathematics with Computer Applications from Bharathiar University, India, and a B.Sc. in the same discipline from Nirmala College for Women.</p>
+</div>
 </details>
 
 <details class="about-section" name="about-sections">
   <summary><span class="about-section-number" aria-hidden="true">03</span><span class="about-section-label">Research and engineering interests</span><span class="about-chevron" aria-hidden="true"></span></summary>
-  <div class="about-section-content" markdown="1">
-
-My current interests include reliable medical image analysis, multimodal vision-language learning, foundation models, real-time computer vision, and efficient model development. On the implementation side, I work with Python, PyTorch, TensorFlow, QuPath, MLflow, multi-GPU experimentation, and Docker-based prototyping.
-
-I value rigorous evaluation, careful dataset preparation, transparent reporting of research status, and practical applications of AI.
-
-For specific contributions and publications, see [Research & Projects]({{ '/projects/' | relative_url }}) and [Publications]({{ '/publications/' | relative_url }}). My [CV]({{ '/cv/' | relative_url }}) page provides further professional background.
-
-  </div>
+  <div class="about-section-content">
+<p>My current interests include reliable medical image analysis, multimodal vision-language learning, foundation models, real-time computer vision, and efficient model development. On the implementation side, I work with Python, PyTorch, TensorFlow, QuPath, MLflow, multi-GPU experimentation, and Docker-based prototyping.</p>
+<p>I value rigorous evaluation, careful dataset preparation, transparent reporting of research status, and practical applications of AI.</p>
+<p>For specific contributions and publications, see <a href="{{ '/projects/' | relative_url }}">Research &amp; Projects</a> and <a href="{{ '/publications/' | relative_url }}">Publications</a>. My <a href="{{ '/cv/' | relative_url }}">CV</a> page provides further professional background.</p>
+</div>
 </details>
 
 <details class="about-section" name="about-sections">
   <summary><span class="about-section-number" aria-hidden="true">04</span><span class="about-section-label">Academic and professional service</span><span class="about-chevron" aria-hidden="true"></span></summary>
-  <div class="about-section-content" markdown="1">
-
-- **Co-organizer / track chair:** RECCAP 2026, IIT Palakkad; North American Young Investigators Symposium on Mathematical Oncology 2026, Stanford University.
-- **Conference reviewing:** CVPR, NeurIPS, MICCAI, WACV, and ACM Multimedia (2026).
-- **Associate Editor:** IEEE Journal of Biomedical and Health Informatics (JBHI), Clinical Informatics.
-- **Journal reviewing:** IEEE SMC Magazine, IEEE Access, IEEE Journal of Biomedical and Health Informatics, Computer Animation and Virtual Worlds, International Journal of Advanced Manufacturing Technology, and Journal of Autonomous Intelligence.
-- **Professional memberships:** IEEE and ACM.
-
-  </div>
+  <div class="about-section-content">
+<ul>
+  <li><strong>Co-organizer / track chair:</strong> RECCAP 2026, IIT Palakkad; North American Young Investigators Symposium on Mathematical Oncology 2026, Stanford University.</li>
+  <li><strong>Conference reviewing:</strong> CVPR, NeurIPS, MICCAI, WACV, and ACM Multimedia (2026).</li>
+  <li><strong>Associate Editor:</strong> IEEE Journal of Biomedical and Health Informatics (JBHI), Clinical Informatics.</li>
+  <li><strong>Journal reviewing:</strong> IEEE SMC Magazine, IEEE Access, IEEE Journal of Biomedical and Health Informatics, Computer Animation and Virtual Worlds, International Journal of Advanced Manufacturing Technology, and Journal of Autonomous Intelligence.</li>
+  <li><strong>Professional memberships:</strong> IEEE and ACM.</li>
+</ul>
+</div>
 </details>
 
 <details class="about-section" name="about-sections">
   <summary><span class="about-section-number" aria-hidden="true">05</span><span class="about-section-label">Selected honors</span><span class="about-chevron" aria-hidden="true"></span></summary>
-  <div class="about-section-content" markdown="1">
-
-- **2026**: Best Oral Presentation Runner-Up, Women in MICCAI (WiM) 2026.
-- **2026**: Charles B. Carrington Memorial Award for Outstanding Poster Presentation, Stanford University.
-- **2024**: Best Thesis Award, Kyungpook National University.
-- **2021 to 2022**: Best Paper Awards at multiple conferences, as listed in the CV.
-
-  </div>
+  <div class="about-section-content">
+<ul>
+  <li><strong>2026</strong>: Best Oral Presentation Runner-Up, Women in MICCAI (WiM) 2026.</li>
+  <li><strong>2026</strong>: Charles B. Carrington Memorial Award for Outstanding Poster Presentation, Stanford University.</li>
+  <li><strong>2024</strong>: Best Thesis Award, Kyungpook National University.</li>
+  <li><strong>2021 to 2022</strong>: Best Paper Awards at multiple conferences, as listed in the CV.</li>
+</ul>
+</div>
 </details>
 </div>
 
