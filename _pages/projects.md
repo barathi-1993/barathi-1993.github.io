@@ -10,10 +10,15 @@ nav_order: 2
 <style>
 .research-lede{max-width:780px;margin:0 0 1.75rem;font-size:1.03rem;line-height:1.7}
 .research-summary{display:flex;flex-wrap:wrap;gap:.55rem;margin:0 0 2rem}
-.research-summary span{display:inline-flex;border:1px solid var(--global-divider-color);border-radius:99px;padding:.35rem .75rem;font-size:.82rem;color:var(--global-text-color)}
+.research-filter{appearance:none;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--global-divider-color);border-radius:99px;padding:.46rem .85rem;min-height:40px;font-size:.84rem;color:var(--global-text-color);background:var(--global-bg-color);cursor:pointer;transition:background .15s ease,color .15s ease,border-color .15s ease}
+.research-filter[aria-pressed="true"]{background:var(--global-theme-color);border-color:var(--global-theme-color);color:#fff}
+.research-filter:hover:not([aria-pressed="true"]){color:var(--global-theme-color);border-color:var(--global-theme-color)}
+.research-filter:focus-visible{outline:2px solid var(--global-theme-color);outline-offset:2px}
+.research-filter-count{font-size:.84rem;color:var(--global-text-color-light);margin:-1.45rem 0 1.5rem}
 .research-programs{display:grid;grid-template-columns:minmax(0,1fr);gap:1.45rem;max-width:1100px;margin:1.5rem auto 2rem}
 .research-program{border:1px solid var(--global-divider-color);border-radius:14px;padding:clamp(1.15rem,2.8vw,1.8rem);background:var(--global-bg-color);display:flex;flex-direction:column;min-width:0;box-shadow:0 6px 26px rgba(40,48,87,.045)}
 .research-program:first-child{grid-column:auto}
+.research-program[hidden]{display:none!important}
 .research-program .research-area{font-size:.73rem;letter-spacing:.08em;text-transform:uppercase;color:var(--global-theme-color);font-weight:700;margin-bottom:.5rem}
 .research-program h2{font-size:1.2rem;line-height:1.35;margin:.2rem 0 .75rem}
 .research-program .research-meta{font-size:.85rem;line-height:1.7;color:var(--global-text-color);margin:0 0 .85rem}
@@ -31,6 +36,7 @@ nav_order: 2
 .research-visual figcaption{text-align:center;font-size:.76rem;color:var(--global-text-color-light);padding:.48rem .35rem .3rem}
 .research-program .research-meta{margin-bottom:.6rem}
 .research-program .research-overview{font-size:1rem}
+@media(prefers-reduced-motion:reduce){.research-filter{transition:none}}
 @media(max-width:650px){.research-program h2{font-size:1.12rem}.research-visual{margin:.3rem -.25rem .9rem}.research-visual img{min-height:110px}.research-visual figcaption{font-size:.7rem}}
 </style>
 
@@ -38,16 +44,18 @@ nav_order: 2
 My research focuses on developing reliable, end-to-end AI systems, from data collection and annotation through model development, evaluation, and deployment. The projects below summarize the broader research programs I have worked on, rather than repeating individual papers or method names already listed under <a href="{{ '/publications/' | relative_url }}">Publications</a>.
 </div>
 
-<div class="research-summary" aria-label="Research areas">
-  <span>Medical &amp; Multimodal AI</span>
-  <span>Computer Vision</span>
-  <span>Human-Computer Interaction</span>
-  <span>Efficient Deep Learning</span>
-  <span>Document Intelligence</span>
+<div class="research-summary" role="group" aria-label="Filter research projects by area">
+  <button type="button" class="research-filter" data-research-filter="all" aria-controls="research-programs" aria-pressed="true">All</button>
+  <button type="button" class="research-filter" data-research-filter="medical-ai" aria-controls="research-programs" aria-pressed="false">Medical &amp; Multimodal AI</button>
+  <button type="button" class="research-filter" data-research-filter="computer-vision" aria-controls="research-programs" aria-pressed="false">Computer Vision</button>
+  <button type="button" class="research-filter" data-research-filter="human-computer-interaction" aria-controls="research-programs" aria-pressed="false">Human-Computer Interaction</button>
+  <button type="button" class="research-filter" data-research-filter="efficient-deep-learning" aria-controls="research-programs" aria-pressed="false">Efficient Deep Learning</button>
+  <button type="button" class="research-filter" data-research-filter="document-intelligence" aria-controls="research-programs" aria-pressed="false">Document Intelligence</button>
 </div>
+<p class="research-filter-count" id="research-filter-count" role="status" aria-live="polite">Showing all 6 research projects</p>
 
-<div class="research-programs">
-  <article class="research-program">
+<div class="research-programs" id="research-programs">
+  <article class="research-program" data-research-tags="medical-ai computer-vision">
     <div class="research-area">Medical AI · Computational Pathology</div>
     <h2>Multimodal Analysis in Digital Pathology</h2>
     <figure class="research-visual">
@@ -69,7 +77,7 @@ My research focuses on developing reliable, end-to-end AI systems, from data col
     </details>
   </article>
 
-  <article class="research-program">
+  <article class="research-program" data-research-tags="computer-vision">
     <div class="research-area">Industrial Computer Vision</div>
     <h2>Abnormal Image Detection and Localization of Fabric Products</h2>
     <figure class="research-visual">
@@ -88,7 +96,7 @@ My research focuses on developing reliable, end-to-end AI systems, from data col
     </details>
   </article>
 
-  <article class="research-program">
+  <article class="research-program" data-research-tags="human-computer-interaction computer-vision">
     <div class="research-area">Gesture Recognition · Human-Computer Interaction</div>
     <h2>Gesture Recognition and Interactive Systems</h2>
     <figure class="research-visual">
@@ -108,7 +116,7 @@ My research focuses on developing reliable, end-to-end AI systems, from data col
     </details>
   </article>
 
-  <article class="research-program">
+  <article class="research-program" data-research-tags="efficient-deep-learning computer-vision">
     <div class="research-area">Efficient Object Detection</div>
     <h2>Lightweight Model for Disabled Parking Sign Detection</h2>
     <figure class="research-visual">
@@ -127,7 +135,7 @@ My research focuses on developing reliable, end-to-end AI systems, from data col
     </details>
   </article>
 
-  <article class="research-program">
+  <article class="research-program" data-research-tags="document-intelligence computer-vision">
     <div class="research-area">Document AI · Sequence Modeling</div>
     <h2>Korean Handwritten Text Recognition</h2>
     <figure class="research-visual">
@@ -146,7 +154,7 @@ My research focuses on developing reliable, end-to-end AI systems, from data col
     </details>
   </article>
 
-  <article class="research-program">
+  <article class="research-program" data-research-tags="medical-ai human-computer-interaction">
     <div class="research-area">Affective Computing · Intelligent Systems</div>
     <h2>Real-Time Emotion Recognition System</h2>
     <figure class="research-visual">
@@ -168,3 +176,5 @@ My research focuses on developing reliable, end-to-end AI systems, from data col
 </div>
 
 <p class="research-note">Research projects summarize the broader work and responsibilities. Manuscript titles, acceptance status, and publication links are presented separately under <a href="{{ '/publications/' | relative_url }}">Publications</a>.</p>
+
+<script src="{{ '/assets/js/research-filters.js' | relative_url | bust_file_cache }}" defer></script>
