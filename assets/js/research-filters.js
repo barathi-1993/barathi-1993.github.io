@@ -13,6 +13,14 @@ document.addEventListener("DOMContentLoaded", () => {
       const tags = (project.dataset.researchTags || "").split(/\s+/);
       const show = selected === "all" || tags.includes(selected);
       project.hidden = !show;
+      // Explicitly keep the card display state in sync with its hidden attribute.
+      project.style.display = show ? "" : "none";
+      // The fabric anomaly project is the most directly relevant industrial
+      // computer-vision example. Put it first within this filter, not under All.
+      project.style.order =
+        selected === "computer-vision" && project.dataset.researchId === "fabric-anomaly"
+          ? "-1"
+          : "";
       if (show) visible += 1;
     });
 
@@ -23,13 +31,24 @@ document.addEventListener("DOMContentLoaded", () => {
     if (status) {
       status.textContent = selected === "all"
         ? "Showing all " + visible + " research projects"
-        : "Showing " + visible + " of " + projects.length + " research projects";
+        : selected === "computer-vision"
+          ? "Showing " + visible + " computer vision projects, including Fabric Anomaly Detection"
+          : "Showing " + visible + " of " + projects.length + " research projects";
     }
   }
 
   buttons.forEach((button) => {
     button.addEventListener("click", () => {
-      selectCategory(button.dataset.researchFilter);
+      const category = button.dataset.researchFilter;
+      selectCategory(category);
+      // Make the first fabric project visible immediately instead of requiring
+      // the user to scroll below the preceding computational pathology card.
+      if (category === "computer-vision") {
+        const fabric = projects.find((project) => project.dataset.researchId === "fabric-anomaly");
+        if (fabric && !fabric.hidden) {
+          fabric.scrollIntoView({ behavior: "auto", block: "start" });
+        }
+      }
     });
   });
 
