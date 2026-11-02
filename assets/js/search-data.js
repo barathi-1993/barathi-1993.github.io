@@ -131,7 +131,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/barithi-subramanian", "_blank");
+          window.open("https://www.linkedin.com/in/barathi-subramanian-91b730208", "_blank");
         },
       },{
         id: 'social-scholar',
